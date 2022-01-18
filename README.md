@@ -10,9 +10,13 @@ A worker never has two shifts on the same day
 It is a 24 hour timetable 0-8, 8-16, 16-24
 Preferably write a couple of units tests."
 
-# Start API in the terminal
+# Install Uvicorn package
 
-Use the command:  uvicorn main:app --reload
+Run the command: pip install uvicorn[standard]
+
+# Start API
+
+Run the command in the terminal:  uvicorn main:app --reload
 
 # Test the API
 
